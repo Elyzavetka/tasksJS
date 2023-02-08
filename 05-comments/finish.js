@@ -7,3 +7,22 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+// String-line cpmment
+
+//Inline comment
+const myName = "Liza"; // This is my name
+
+//Multiline comment 1
+/* dfklxngdlkfnv,xvn,xvnx,vnm
+xmcv n,m*/
+
+const mySurname = "Tara";
+
+//Multiline comment 2
+/**
+ * This is
+ * multiline
+ * comment
+ */
+5 + 2;
