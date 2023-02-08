@@ -11,8 +11,16 @@
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
 
+//explicit return
+
 const helloWorld = () => {
   return "Hello world";
 };
 
 console.log(helloWorld());
+
+//implicit return
+
+const helloWorld1 = () => "Hello world";
+
+console.log(helloWorld1());
