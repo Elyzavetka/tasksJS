@@ -5,3 +5,9 @@
  * 2. Используя один из методов массивов, переберите все элементы
  * и выведите каждый элемент в консоль
  */
+
+const myArray = new Array[(2, 7, true, null, 198, "abc")]();
+
+myArray.forEach((element) => {
+  console.log(element);
+});
