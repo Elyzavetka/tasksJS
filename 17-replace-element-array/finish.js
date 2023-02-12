@@ -8,3 +8,11 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+const myArray = ["abs", null, true];
+
+console.log(myArray);
+
+myArray[1] = 177;
+
+console.log(myArray);
