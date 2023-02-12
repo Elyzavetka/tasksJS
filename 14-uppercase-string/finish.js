@@ -12,3 +12,13 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const favoriteSeason = "spring";
+
+console.log(favoriteSeason instanceof String);
+
+console.log(typeof favoriteSeason);
+
+const seasonToUpperCase = favoriteSeason.toUpperCase();
+
+console.log(seasonToUpperCase);
