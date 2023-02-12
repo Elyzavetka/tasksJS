@@ -4,3 +4,9 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+const favoriteCity = "London";
+
+const stringLength = favoriteCity.length;
+
+console.log(stringLength);
