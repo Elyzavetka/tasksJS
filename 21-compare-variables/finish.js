@@ -6,12 +6,20 @@
  * 2. Преобразуйте обе переменные в числа перед сравнением.
  */
 
-let myVariable1 = 10
-let myVariable2 = '5'
+let myVariable1 = 10;
+let myVariable2 = "5";
 
 // Напишите код здесь
+myVariable2 = Number(myVariable2);
+if (myVariable2 <= myVariable1) {
+  console.log(true);
+}
 
-myVariable1 = '20'
-myVariable2 = 100
+myVariable1 = "20";
+myVariable2 = 100;
 
 // Напишите код здесь
+myVariable1 = Number(myVariable1);
+if (myVariable1 <= myVariable2) {
+  console.log(true);
+}
