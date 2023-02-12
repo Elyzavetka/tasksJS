@@ -6,3 +6,9 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+const myNum = [2, 36, 43];
+console.log(myNum);
+myNum.push(7);
+console.log(myNum);
+console.log(myNum.length);
