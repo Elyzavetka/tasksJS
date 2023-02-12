@@ -11,15 +11,14 @@ let myVariable2 = "5";
 
 // Напишите код здесь
 myVariable2 = Number(myVariable2);
-if (myVariable2 <= myVariable1) {
+if (myVariable1 <= myVariable2) {
   console.log(true);
+} else {
+  console.log(false);
 }
 
 myVariable1 = "20";
 myVariable2 = 100;
 
 // Напишите код здесь
-myVariable1 = Number(myVariable1);
-if (myVariable1 <= myVariable2) {
-  console.log(true);
-}
+console.log(parseInt(myVariable1) <= parseInt(myVariable2));
