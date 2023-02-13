@@ -3,12 +3,12 @@
  * Измените код так, чтобы ошибка исчезла
  */
 
-const myFavoriteAnimal = 'Monkey'
+const myFavoriteAnimal = "Monkey";
 
-console.log(myFavoriteAnimal)
+console.log(myFavoriteAnimal);
 // 'Monkey'
 
-const myFavoriteAnimal = 'Cat'
+const myFavoriteAnimal1 = "Cat";
 
-console.log(myFavoriteAnimal)
+console.log(myFavoriteAnimal1);
 // 'Cat'
