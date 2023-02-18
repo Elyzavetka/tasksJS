@@ -34,3 +34,5 @@ const updatedArray = addRandomNumberToArray(myNumbers, MIN, MAX);
 
 console.log("UPDATED ARRAY", updatedArray);
 console.log("ORIGINAL ARRAY", myNumbers);
+
+console.log(myNumbers.includes(2355));
