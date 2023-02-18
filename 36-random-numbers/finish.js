@@ -28,6 +28,7 @@ const addRandomNumberToArray = (arr, min, max) => {
 
   do {
     newRandomNumber = randomNumber(min, max);
+    console.log(newRandomNumber);
   } while (updatedArr.includes(newRandomNumber));
 
   updatedArr.push(newRandomNumber);
