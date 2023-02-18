@@ -23,8 +23,13 @@ const randomNumber = (min, max) => {
 };
 
 const addRandomNumberToArray = (arr, min, max) => {
-  const newRandomNumber = randomNumber(min, max);
+  let newRandomNumber;
   const updatedArr = [...arr];
+
+  do {
+    newRandomNumber = randomNumber(min, max);
+  } while (updatedArr.includes(newRandomNumber));
+
   updatedArr.push(newRandomNumber);
 
   return updatedArr;
@@ -34,5 +39,3 @@ const updatedArray = addRandomNumberToArray(myNumbers, MIN, MAX);
 
 console.log("UPDATED ARRAY", updatedArray);
 console.log("ORIGINAL ARRAY", myNumbers);
-
-console.log(myNumbers.includes(2355));
