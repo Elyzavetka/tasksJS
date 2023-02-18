@@ -9,7 +9,9 @@
 const myObject = {
   key1: true,
   key5: 10,
-  key3: 'abc',
+  key3: "abc",
   key4: null,
   key10: NaN,
-}
+};
+const result = Object.keys(myObject);
+console.log(result);
