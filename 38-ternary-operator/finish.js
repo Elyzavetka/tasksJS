@@ -15,9 +15,19 @@
 // return "Массив пустой";
 //}
 
-function isArrayEmpty(inputArray) {
-  return inputArray.length > 0 ? "Array is not empty" : "Array is empty";
-}
+//Task 2
+//function isArrayEmpty(inputArray) {
+//  return inputArray.length > 0 ? "Array is not empty" : "Array is empty";
+//}
+
+//Task 3 expliced return
+//const isArrayEmpty = (inputArray) => {
+//  return inputArray.length > 0 ? "Array is not empty" : "Array is empty";
+//}
+
+//Task3 impliced return
+const isArrayEmpty = (inputArray) =>
+  inputArray.length > 0 ? "Array is not empty" : "Array is empty";
 
 console.log(isArrayEmpty([1, 3]));
 console.log(isArrayEmpty([]));
