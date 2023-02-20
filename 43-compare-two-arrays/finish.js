@@ -10,6 +10,9 @@
  *
  * ВАЖНО: Исходите из того, что массивы содержат элементы примитивных типов
  */
+function isElementInArray(inputArray, searchElement) {
+  return inputArray.includes(searchElement);
+}
 
 const areArraysEqual = (firstArray, secondArray) => {
   if (
