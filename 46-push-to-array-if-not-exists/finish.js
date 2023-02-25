@@ -13,7 +13,9 @@
 const pushIfUnique = (inputArray, newElement) => {
   if (inputArray.includes(newElement)) {
     console.log(`${newElement} alredy exist in array`);
+    return;
   }
+  inputArray.push(newElement);
 };
 const myNumbers = [123, 50, 27];
 
