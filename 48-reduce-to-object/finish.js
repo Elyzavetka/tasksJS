@@ -9,7 +9,8 @@
 
 function quantitiesByCategories(products) {
   return products.reduce((qtysByCategories, product) => {
-    qtysByCategories[product.category] = product.quantity;
+    qtysByCategories[product.category] =
+      (qtysByCategories[product.category] || 0) + product.quantity;
     return qtysByCategories;
   }, {});
 }
