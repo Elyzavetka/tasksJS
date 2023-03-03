@@ -16,9 +16,8 @@ let person = {
   name: "Samanta Larsen",
   cartId: 435,
 };
-
-const { _id, processed, cart, ...person2 } = person;
-console.log(person2);
+let _id, processed, cart;
+({ _id, processed, cart, ...person } = person);
 
 //Option delete operator
 //delete person._id;
