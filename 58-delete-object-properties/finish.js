@@ -17,9 +17,13 @@ let person = {
   cartId: 435,
 };
 
-delete person._id;
-delete person.processed;
-delete person.cart;
+const { _id, processed, cart, ...person2 } = person;
+console.log(person2);
+
+//Option delete operator
+//delete person._id;
+//delete person.processed;
+//delete person.cart;
 
 console.log(person);
 /*
