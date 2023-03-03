@@ -16,8 +16,10 @@ let person = {
   name: "Samanta Larsen",
   cartId: 435,
 };
-let _id, processed, cart;
-({ _id, processed, cart, ...person } = person);
+{
+  let _id, processed, cart;
+  ({ _id, processed, cart, ...person } = person);
+}
 
 //Option delete operator
 //delete person._id;
