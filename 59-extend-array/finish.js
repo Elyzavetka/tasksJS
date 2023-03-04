@@ -29,3 +29,5 @@ console.log(myExtendedArray);
 console.log(myExtendedArray.sum());
 const myExtendedArray2 = new ExtendedArray("abc", 5, true, 25);
 console.log(myExtendedArray2.onlyNumbers());
+
+myExtendedArray2.forEach((el) => console.log(el));
