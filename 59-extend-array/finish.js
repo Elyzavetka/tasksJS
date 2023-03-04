@@ -27,3 +27,5 @@ class ExtendedArray extends Array {
 const myExtendedArray = new ExtendedArray(10, 4, 5);
 console.log(myExtendedArray);
 console.log(myExtendedArray.sum());
+const myExtendedArray2 = new ExtendedArray("abc", 5, true, 25);
+console.log(myExtendedArray2.onlyNumbers());
